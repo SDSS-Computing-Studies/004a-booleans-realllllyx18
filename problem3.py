@@ -1,8 +1,20 @@
 #! python3
 
-#  Have the user enter a username 
-# If the username is not "admin" then tell them it is an "invalid user", 
-# but if it is, then ask them for a password 
-# If they get the password correct (password is 12345password) 
-# then display the message "Access granted"
-# 1 marks
+# Have the user enter a number 
+# Determine if the number is an integer
+# 1 mark
+
+# Inputs:
+# a number
+
+# Outputs:
+# "the number is an integer"
+# "the number is not an integer"
+
+number=input("Enter a number")
+number=float(number)
+
+if number%1==0:
+    print("the number is an integer")
+else:
+    print("the number is not an integer")
