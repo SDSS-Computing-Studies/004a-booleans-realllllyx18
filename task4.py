@@ -14,6 +14,6 @@ sentence=input("Enter a sentence")
 sentence=str(sentence)
 
 if "password" in sentence:
-    print("The sentence contains password")
+    print("the sentence contains password")
 else:
-    print("The sentence does not contain password")
+    print("the sentence does not contain password")
