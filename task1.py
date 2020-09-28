@@ -17,8 +17,8 @@ number=input("Enter a number")
 number=float(number)
 
 if number>100:
-    print("The number is larger than 100")
+    print("the number is larger than 100")
 if number<100:
-    print("The number is smalller than 100")
+    print("the number is smalller than 100")
 if number==100:
-    print("The number is 100")
+    print("the number is 100")
