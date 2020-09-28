@@ -16,8 +16,8 @@ number=input("Enter a number")
 number=float(number)
 
 if number>0:
-    print("The number is positive")
+    print("the number is positive")
 if number<0:
-    print("The number is negative")
+    print("the number is negative")
 if number==0:
-    print("The number is zero")
+    print("the number is zero")
