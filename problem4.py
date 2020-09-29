@@ -14,7 +14,6 @@
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
 
-import math
 a=input("Enter a number")
 b=input("Enter a number")
 c=input("Enter a number")
