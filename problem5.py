@@ -22,8 +22,8 @@ a=input("Enter the number")
 b=input("Enter the number")
 c=input("Enter the number")
 
-result=float(b)**float(2)-float(4)*float(a)*float(c)
-result=foat(result)
+result=(float(b)**float(2))-(float(4)*float(a)*float(c))
+result=float(result)
 
 if result==0:
     print("the equation can be factored")
