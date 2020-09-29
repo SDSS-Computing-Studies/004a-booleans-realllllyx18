@@ -22,11 +22,11 @@ number=input("Enter a number")
 
 number=float(number)
 
-if number>1000:
+if number>=1000:
     print("3")
-elif number>100:
+elif number>=100:
     print("2")
-elif number>10:
+elif number>=10:
     print("1")
-elif number>0:
+elif number>=0:
     print("0")
