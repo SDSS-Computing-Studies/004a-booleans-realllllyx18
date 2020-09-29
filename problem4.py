@@ -1,3 +1,4 @@
+
 #! python3
 # Have the user enter in 3 numerical values, representing the side lengths of a triangle. 
 # Determine if the values are close enough to make a right triangle. 
@@ -17,10 +18,12 @@ import math
 a=input("Enter a number")
 b=input("Enter a number")
 c=input("Enter a number")
-if float(a)<float(b)<float(c):
-    if float(a)**float(2)+float(b)**float(2)==float(c)**float(2):
-        print("that is a right triangle")
-    if float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
-        print("that is an obtuse triangle")
-    if float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
-        print("that is an acute triangle")
+if float(a)+float(b)>float(c):
+    if float(a)+float(c)>float(b):
+        if float(b)+float(c)>float(a):
+            if float(a)**float(2)+float(b)**float(2)==float(c)**float(2):
+                print("that is a right triangle")
+            if float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
+                print("that is an obtuse triangle")
+            if float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
+                print("that is an acute triangle")
