@@ -7,7 +7,7 @@
  # then display the message "Access granted"
  # 1 marks
 
-username=input("Enter a username")
+username=input("Enter the username")
 
 if username!="admin":
     print("invalid user")
