@@ -19,6 +19,6 @@ number=float(number)
 if number>100:
     print("the number is larger than 100")
 if number<100:
-    print("the number is smalller than 100")
+    print("the number is smaller than 100")
 if number==100:
     print("the number is 100")
