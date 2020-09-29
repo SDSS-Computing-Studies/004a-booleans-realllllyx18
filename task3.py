@@ -18,7 +18,7 @@
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
 
-number=input("nter a number")
+number=input("enter a number")
 
 number=float(number)
 
