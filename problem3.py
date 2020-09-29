@@ -8,9 +8,9 @@
 # 1 marks
 
 username=input("Enter a username")
-unsername=str(username)
+username=str(username)
 
-if username!= "admin":
+if username!="admin":
     print("invalid user")
 if username=="admin":
     password=input("Enter the password")
