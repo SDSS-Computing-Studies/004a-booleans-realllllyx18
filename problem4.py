@@ -12,3 +12,15 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+
+import math
+a=input("Enter a number")
+b=input("Enter a number")
+c=input("Enter a numbrt")
+if float(a)<float(b)<float(c):
+    if float(a)**float(2)+float(b)**float(2)==float(c)**float(2):
+        print("that is a right triangle")
+    if float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
+        print("that is an obtuse triangle")
+    if float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
+        print("that is an acute triangle")
