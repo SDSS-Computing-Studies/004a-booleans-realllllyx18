@@ -15,4 +15,4 @@ if username!= "admin":
 if username=="admin":
     password=input("Enter the password")
     if password=="12345password":
-        print("Acess granted")
+        print("Access granted")
