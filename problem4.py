@@ -22,37 +22,37 @@ if float(a)+float(b)>float(c):
         if float(b)+float(c)>float(a):
             if float(a)**float(2)+float(b)**float(2)==float(c)**float(2):
                 print("that is a right triangle")
-            if float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
+            elif float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
                 print("that is an obtuse triangle")
-            if float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
+            elif float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
                 print("that is an acute triangle")
-            if float(a)**float(2)+float(c)**float(2)==float(b)**float(2):
+            elif float(a)**float(2)+float(c)**float(2)==float(b)**float(2):
                 print("that is a right triangle")
-            if float(a)**float(2)+float(c)**float(2)>float(b)**float(2):
+            elif float(a)**float(2)+float(c)**float(2)>float(b)**float(2):
                 print("that is an obtuse triangle")
-            if float(a)**float(2)+float(c)**float(2)<float(b)**float(2):
+            elif float(a)**float(2)+float(c)**float(2)<float(b)**float(2):
                 print("that is an acute triangle")
-            if float(b)**float(2)+float(a)**float(2)==float(c)**float(2):
+            elif float(b)**float(2)+float(a)**float(2)==float(c)**float(2):
                 print("that is a right triangle")
-            if float(b)**float(2)+float(a)**float(2)>float(c)**float(2):
+            elif float(b)**float(2)+float(a)**float(2)>float(c)**float(2):
                 print("that is an obtuse triangle")
-            if float(b)**float(2)+float(a)**float(2)<float(c)**float(2):
+            elif float(b)**float(2)+float(a)**float(2)<float(c)**float(2):
                 print("that is an acute triangle")
-            if float(b)**float(2)+float(c)**float(2)==float(b)**float(2):
+            elif float(b)**float(2)+float(c)**float(2)==float(b)**float(2):
                 print("that is a right triangle")
-            if float(b)**float(2)+float(c)**float(2)>float(b)**float(2):
+            elif float(b)**float(2)+float(c)**float(2)>float(b)**float(2):
                 print("that is an obtuse triangle")
-            if float(b)**float(2)+float(c)**float(2)<float(b)**float(2):
+            elif float(b)**float(2)+float(c)**float(2)<float(b)**float(2):
                 print("that is an acute triangle")
-            if float(c)**float(2)+float(a)**float(2)==float(b)**float(2):
+            elif float(c)**float(2)+float(a)**float(2)==float(b)**float(2):
                 print("that is a right triangle")
-            if float(c)**float(2)+float(a)**float(2)>float(b)**float(2):
+            elif float(c)**float(2)+float(a)**float(2)>float(b)**float(2):
                 print("that is an obtuse triangle")
-            if float(c)**float(2)+float(a)**float(2)<float(b)**float(2):
+            elif float(c)**float(2)+float(a)**float(2)<float(b)**float(2):
                 print("that is an acute triangle")
-            if float(c)**float(2)+float(b)**float(2)==float(a)**float(2):
+            elif float(c)**float(2)+float(b)**float(2)==float(a)**float(2):
                 print("that is a right triangle")
-            if float(c)**float(2)+float(b)**float(2)>float(a)**float(2):
+            elif float(c)**float(2)+float(b)**float(2)>float(a)**float(2):
                 print("that is an obtuse triangle")
-            if float(c)**float(2)+float(b)**float(2)<float(a)**float(2):
+            elif float(c)**float(2)+float(b)**float(2)<float(a)**float(2):
                 print("that is an acute triangle")
