@@ -14,45 +14,59 @@
 # - "that is an obtuse triangle"
 
 import math
-a=input("Enter a number")
-b=input("Enter a number")
-c=input("Enter a number")
-if float(a)+float(b)>float(c):
-    if float(a)+float(c)>float(b):
-        if float(b)+float(c)>float(a):
-            if float(a)**float(2)+float(b)**float(2)==float(c)**float(2):
+
+a = input ("Enter one side of a triangle")
+b = input("Enter another side of the triangle")
+c = input("Enter the third side of the triangle")
+if float(a) + float(b) >float(c) and float(b) + float(c) > float(a) and float(a) + float(c) >float(b):
+    if a >= b:
+        if c >= a:
+            hypotenuse = math.sqrt(float(a)**2 + float(b)**2)
+            if abs(float(hypotenuse) - float(c)) <= 0.02*float(c):
                 print("that is a right triangle")
-            elif float(a)**float(2)+float(b)**float(2)>float(c)**float(2):
+            elif float(hypotenuse) > float(c):
                 print("that is an obtuse triangle")
-            elif float(a)**float(2)+float(b)**float(2)<float(c)**float(2):
+            else:
                 print("that is an acute triangle")
-            elif float(a)**float(2)+float(c)**float(2)==float(b)**float(2):
+        else:
+            hypotenuse = math.sqrt(float(c)**2 + float(b)**2)
+            if abs(float(hypotenuse) - float(a)) <= 0.02*float(a):
                 print("that is a right triangle")
-            elif float(a)**float(2)+float(c)**float(2)>float(b)**float(2):
+            elif float(hypotenuse) > float(a):
                 print("that is an obtuse triangle")
-            elif float(a)**float(2)+float(c)**float(2)<float(b)**float(2):
+            else:
                 print("that is an acute triangle")
-            elif float(b)**float(2)+float(a)**float(2)==float(c)**float(2):
+    if b >= c:
+        if a >= b:
+            hypotenuse = math.sqrt(float(b)**2 + float(c)**2)
+            if abs(float(hypotenuse) - float(a)) <= 0.02*float(a):
                 print("that is a right triangle")
-            elif float(b)**float(2)+float(a)**float(2)>float(c)**float(2):
+            elif float(hypotenuse) - float(a) > 0:
                 print("that is an obtuse triangle")
-            elif float(b)**float(2)+float(a)**float(2)<float(c)**float(2):
+            else:
                 print("that is an acute triangle")
-            elif float(b)**float(2)+float(c)**float(2)==float(b)**float(2):
+        else:
+            hypotenuse = math.sqrt(float(c)**2 + float(a)**2)
+            if abs(float(hypotenuse) - float(b)) <= 0.02*float(b):
                 print("that is a right triangle")
-            elif float(b)**float(2)+float(c)**float(2)>float(b)**float(2):
+            elif float(hypotenuse) - float(b) > 0:
                 print("that is an obtuse triangle")
-            elif float(b)**float(2)+float(c)**float(2)<float(b)**float(2):
+            else:
                 print("that is an acute triangle")
-            elif float(c)**float(2)+float(a)**float(2)==float(b)**float(2):
+    if c >= a:
+        if b >= c:
+            hypotenuse = math.sqrt(float(a)**2 + float(c)**2)
+            if abs(float(hypotenuse) - float(b)) <= 0.02*float(b):
                 print("that is a right triangle")
-            elif float(c)**float(2)+float(a)**float(2)>float(b)**float(2):
+            elif float(hypotenuse) - float(b) > 0:
                 print("that is an obtuse triangle")
-            elif float(c)**float(2)+float(a)**float(2)<float(b)**float(2):
+            else:
                 print("that is an acute triangle")
-            elif float(c)**float(2)+float(b)**float(2)==float(a)**float(2):
+        else:
+            hypotenuse = math.sqrt(float(b)**2 + float(a)**2)
+            if abs(float(hypotenuse) - float(c)) <= 0.02*float(c):
                 print("that is a right triangle")
-            elif float(c)**float(2)+float(b)**float(2)>float(a)**float(2):
+            elif float(hypotenuse) - float(c) > 0:
                 print("that is an obtuse triangle")
-            elif float(c)**float(2)+float(b)**float(2)<float(a)**float(2):
+            else:
                 print("that is an acute triangle")
